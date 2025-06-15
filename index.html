@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Alexis!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Decorations -->
+    <div class="balloon"></div>
+    <div class="balloon"></div>
+    <div class="balloon"></div>
+
+    <div class="container">
+        <div class="card-counter">
+            <span id="currentCard">1</span> / <span id="totalCards">5</span>
+        </div>
+
+        <!-- Greeting Card 1 -->
+        <div class="greeting-card active">
+            <div class="card-photo" id="cardPhoto1">
+                <img src="IMG_20230804_182209_946.jpg" alt="Birthday Photo" onerror="this.parentElement.innerHTML='<div class=\'photo-placeholder\'><span>🎉</span><p>Happy Birthday!</p></div>'">
+            </div>
+            <h1 class="birthday-title">Happy Birthday, Alexis!</h1>
+            <p class="birthday-message">
+                🎉 I hope you enjoy your special day to the fullest!<br><br>
+                May the coming years bring even more prosperity, happiness, and joy into your life.✨<br><br>
+                I also want to take a moment to congratulate you for winning your silent battles. Your strength doesn't go unnoticed.<br>
+                I'm truly proud of the progress you've made. Keep shining! 🌟<br><br>
+                <span class="emoji">🎂💖</span>
+            </p>
+        </div>
+
+        <!-- Greeting Card 2 -->
+        <div class="greeting-card">
+            <div class="card-photo" id="cardPhoto2">
+                <img src="IMG_20230731_091856_506.jpg" alt="Birthday Photo" onerror="this.parentElement.innerHTML='<div class=\'photo-placeholder\'><span>🎈</span><p>Celebrate!</p></div>'">
+            </div>
+            <h1 class="birthday-title">Enjoy Your Day Badingg!</h1>
+            <p class="birthday-message">
+                🎈 Another year of wonderful memories and amazing adventures! 🎈<br><br>
+                I also want to thank you from the bottom of my heart for the support you radiate, the encouragement you constantly give, and yes—those brutally honest truths you slap me with (HAHAHA).<br><br>
+                Words can't fully describe how happy and grateful I am to have you as my friend. You truly are a gift. 💖<br><br>
+                <span class="emoji">🎁🙌</span>
+            </p>
+        </div>
+
+    <!-- Greeting Card 3 -->
+<div class="greeting-card">
+    <div class="card-photo" id="cardPhoto3">
+        <img src="IMG_20230731_091859_527.jpg" alt="Birthday Photo" onerror="this.parentElement.innerHTML='<div class=\'photo-placeholder\'><span>✨</span><p>Make a Wish!</p></div>'">
+    </div>
+    <h1 class="birthday-title">Make a Wish, Badingg!</h1>
+    <p class="birthday-message">
+        ✨ Close your eyes, make a wish, and blow out the candles! ✨<br><br>
+        My wish for you is that life continues to unfold with kindness, purpose, and unexpected joys. May each new chapter you write be even more beautiful than the last—and may you always remember how strong, inspiring, and irreplaceable you are.<br><br>
+        You’ve gone through things no one even sees, and yet you still show up with that bright smile, spreading your *kakulitan*, your wisdom (yes, kahit minsan questionable HAHA), and that comforting presence only *you* can give.<br><br>
+        You’ve already accomplished so much, Badingg, and I know there’s even more greatness ahead of you. So here’s to more wins—both loud and silent. To healing, to growth, to laughing so hard we cry, and to never settling for anything less than what sets your soul on fire. 🔥<br><br>
+        <span class="emoji">🕯️🌠🎉💖</span>
+    </p>
+</div>
+
+      <!-- Greeting Card 4 -->
+<div class="greeting-card">
+    <div class="card-photo" id="cardPhoto4">
+        <img src="IMG_20230704_220603_584.jpg" alt="Birthday Photo" onerror="this.parentElement.innerHTML='<div class=\'photo-placeholder\'><span>🥳</span><p>Party Time!</p></div>'">
+    </div>
+    <h1 class="birthday-title">This Day is All About Youu</h1>
+    <p class="birthday-message">
+        🥳 I’ve seen your struggles—and I know there may be even more battles you fight silently, on your own. Yet here you are, still standing strong through it all. 🥳<br><br>
+        That alone is no easy feat, and I want you to know how incredibly proud I am of you.<br><br>
+        Your achievements, no matter how small they may seem, are worth celebrating. So go ahead—give yourself a well-deserved pat on the back for how far you’ve come. You’ve earned it. 💪<br><br>
+        <span class="emoji">🎊💃</span>
+    </p>
+</div>
+
+
+      <!-- Greeting Card 5 -->
+<div class="greeting-card">
+    <div class="card-photo" id="cardPhoto5">
+        <img src="IMG_20230728_143138_064.jpg" alt="Birthday Photo" onerror="this.parentElement.innerHTML='<div class=\'photo-placeholder\'><span>🌟</span><p>Best Wishes!</p></div>'">
+    </div>
+    <h1 class="birthday-title">My Message to You</h1>
+    <p class="birthday-message">
+        💝 Before anything else... 💝<br><br>
+        No words can describe how lucky I am to have you as my friend—my *sumbungan*, my *kakampi* in everything.<br><br>
+        Thank you for being a real friend and for showing me what true friendship feels like. Thank you for sticking with me, even through all the *sakit ng ulo* I bring with my questionable life choices 😅—and yet, you stayed.<br><br>
+        You’ve been a constant ray of sunshine in my life, and I promise not to take that for granted.<br><br>
+        Once again, thank you for everything, Alexis. I’m really hoping to see you soon! 💕<br><br>
+        <span class="emoji">🤗🌟</span>
+    </p>
+</div>
+
+
+        <div class="navigation">
+            <button class="nav-btn" id="prevBtn" onclick="previousCard()">← Back</button>
+            <button class="nav-btn" id="nextBtn" onclick="nextCard()">Next →</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
